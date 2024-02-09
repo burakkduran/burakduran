@@ -3,10 +3,10 @@ import { ModeToggle } from "../mode-toggle";
 
 export default function Navbar() {
   return (
-    <nav className="select-none bg-background">
+    <nav className="select-none mb-6">
       <div className="flex justify-between">
         <Link href="/" className="flex items-center">
-          <h1 className="text-lg font-bold">Burak</h1>
+          <h1 className="text-2xl font-bold">Burak Duran</h1>
         </Link>
         <div className="flex gap-4">
           <ul className="flex items-center space-x-4 text-sm text-zinc-500 dark:text-zinc-400">
