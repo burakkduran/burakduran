@@ -29,15 +29,7 @@ export default function Home() {
         or my social media links below.
       </p>
       <Socials />
-      <p className="text-zinc-400 dark:text-zinc-600 mt-6 mb-1">Where</p>
-      
-      <Image
-        src={Map}
-        alt="Map"
-        width={"566"}
-        height={"371"}
-        style={{ borderRadius: "24px" }}
-      />
+
     </main>
   );
 }
