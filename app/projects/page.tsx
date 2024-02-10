@@ -1,8 +1,3 @@
 export default function Projects() {
-    return (
-      <main>
-        Project page
-      </main>
-    );
-  }
-  
+  return <main>Project page</main>;
+}

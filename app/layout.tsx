@@ -26,7 +26,7 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <div className="container flex min-h-screen flex-col py-4 md:w-[50rem] md:py-8">
+          <div className="container flex min-h-screen flex-col py-4 md:w-[40rem] md:py-8">
             <Navbar />
             {children}
             <Footer />

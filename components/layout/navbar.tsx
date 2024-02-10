@@ -9,7 +9,7 @@ export default function Navbar() {
           <h1 className="text-2xl font-bold">Burak Duran</h1>
         </Link>
         <div className="flex gap-4">
-          <ul className="flex items-center space-x-4 text-sm text-zinc-500 dark:text-zinc-400">
+          <ul className="flex items-center space-x-4 text-sm text-zinc-600 dark:text-zinc-400">
             <li className="hover:underline">
               <Link href="/">Home</Link>
             </li>
