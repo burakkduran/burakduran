@@ -4,6 +4,7 @@ import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import Navbar from "@/components/layout/navbar";
 import Footer from "@/components/layout/footer";
+import { Separator } from "@/components/ui/separator";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -28,6 +29,7 @@ export default function RootLayout({
         >
           <div className="container flex min-h-screen flex-col py-4 md:w-[40rem] md:py-8">
             <Navbar />
+            <Separator className="mb-4"/>
             {children}
             <Footer />
           </div>

@@ -3,7 +3,7 @@ import { ModeToggle } from "../mode-toggle";
 
 export default function Navbar() {
   return (
-    <nav className="select-none mb-6">
+    <nav className="select-none mb-4">
       <div className="flex justify-between">
         <Link href="/" className="flex items-center">
           <h1 className="text-2xl font-bold">Burak Duran</h1>
