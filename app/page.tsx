@@ -1,7 +1,4 @@
 import Socials from "@/components/socials";
-import Image from "next/image";
-import Map from "@/public/map2.png";
-import { Separator } from "@/components/ui/separator";
 
 export default function Home() {
   return (
