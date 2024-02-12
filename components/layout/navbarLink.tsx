@@ -21,7 +21,7 @@ export default function NavbarLink() {
             key={link.name}
             className={clsx(
                 // ToDo Fix text, hover colors
-              "hover:text-yellow-400 dark:hover:text-yellow-200 transition duration-200",
+              "hover:text-yellow-500 dark:hover:text-yellow-400 transition duration-200",
               {
                 "text-black dark:text-zinc-200 font-medium ":
                   pathname === link.href,
