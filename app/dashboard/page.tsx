@@ -1,4 +1,3 @@
 export default function Dashboard() {
-    return <main>Dashboard page</main>;
-  }
-  
+  return <main>Coming Soooooooooooon !</main>;
+}
