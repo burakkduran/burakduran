@@ -12,6 +12,7 @@ export default function Home() {
           width={256}
           height={256}
           className="rounded-full border border-gray-500"
+          priority
         />
         <h3 className="text-4xl font-black mt-4">Burak Duran</h3>
       </div>
