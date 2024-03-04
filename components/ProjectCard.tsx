@@ -34,11 +34,15 @@ function ProjectCard() {
           <CardTitle>{project.name}</CardTitle>
 
           <div className="flex gap-2">
-            <a href={project.links.live}>
-              <Radio />
-            </a>
-            <a href={project.links.github}>
+            <a href={project.links.github} target="_blank">
               <Github />
+            </a>
+            <a
+              href={project.links.live}
+              className="text-red-500"
+              target="_blank"
+            >
+              <Radio />
             </a>
           </div>
         </div>
